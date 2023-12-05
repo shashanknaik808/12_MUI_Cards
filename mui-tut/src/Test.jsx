@@ -12,13 +12,13 @@ import {
 function Test() {
     return (
         <div>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 500 }}>
                 <CardActionArea>
                     <CardMedia
                         component="img"
-                        height="140"
+                        height="100%"
                         image="./images/Lizard.jpg"
-                        alt="green iguana"
+                        alt="blue iguana"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
@@ -33,6 +33,9 @@ function Test() {
                 <CardActions>
                     <Button size="small" color="primary">
                         Share
+                    </Button>
+                    <Button size="small" color="primary">
+                        Save
                     </Button>
                 </CardActions>
             </Card>
