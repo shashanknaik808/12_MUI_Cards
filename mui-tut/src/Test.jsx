@@ -1,4 +1,13 @@
 import React from 'react';
+import {
+    Card,
+    CardContent,
+    CardMedia,
+    Typography,
+    Button,
+    CardActionArea,
+    CardActions
+} from '@mui/material';
 
 function Test() {
     return (
@@ -8,7 +17,7 @@ function Test() {
                     <CardMedia
                         component="img"
                         height="140"
-                        image="/static/images/cards/contemplative-reptile.jpg"
+                        image="./images/Lizard.jpg"
                         alt="green iguana"
                     />
                     <CardContent>
